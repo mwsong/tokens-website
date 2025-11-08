@@ -1,1 +1,24 @@
 /*shall put styles font familys to reuse for body paragraphs */
+
+/*i'm importing this font- must b at top of page!!*/
+@import url('https://fonts.google.com/share?selection.family=Eagle+Lake');
+
+.fancy {
+    font-family:'Eagle Lake';
+    margin: 0px;
+    padding: 0px;
+}
+
+nav button{
+    background-color:beige;
+    color:turquoise;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover{
+    box-shadow: 0 4px 8px(0,0,0,0.3);
+    transform:translateY(-2px);
+}
