@@ -17,6 +17,8 @@ nav button{
     cursor:pointer;
     transition: all 0.3s ease;
     display: block;
+    width: 150px;         
+    margin: 10px auto;
 }
 
 nav button:hover{
