@@ -9,7 +9,7 @@
     padding: 0px;
 }
 
-nav button{
+button{
     background-color:beige;
     color:turquoise;
     border:none;
@@ -21,7 +21,7 @@ nav button{
     margin: 10px auto;
 }
 
-nav button:hover{
+button:hover{
     box-shadow: 0 4px 8px(0,0,0,0.3);
     transform:translateY(-2px);
 }
