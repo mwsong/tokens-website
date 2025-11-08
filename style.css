@@ -16,6 +16,7 @@ nav button{
     font-size:16px;
     cursor:pointer;
     transition: all 0.3s ease;
+    display: block;
 }
 
 nav button:hover{
