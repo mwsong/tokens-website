@@ -4,7 +4,7 @@
 @import url('https://fonts.google.com/share?selection.family=Eagle+Lake');
 
 .fancy {
-    font-family:'Eagle Lake';
+    font-family:'Eagle Lake', cursive;
     margin: 0px;
     padding: 0px;
 }
@@ -24,4 +24,38 @@ button{
 button:hover{
     box-shadow: 0 4px 8px(0,0,0,0.3);
     transform:translateY(-2px);
+}
+
+.bento-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bento-box{
+    flex: 1 1 250 px;
+    padding: 20px;
+    border-radius: 16 px;
+    color: pink;
+    box-shadow: 0 4 px 8 px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.bento-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8 px 16 px rgba(0,0,0,0.3);
+}
+
+.bento1{
+    background-color: turquoise;
+}
+
+.bento2{
+    background-color: antiquewhite;
+}
+
+.bento3{
+    background-color: violet;
 }
