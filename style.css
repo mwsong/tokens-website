@@ -175,3 +175,37 @@ button:hover {
     --error-color: #f8bbd0;
     --error-color-border: #e63946;
 }
+
+.bento-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bento-box{
+    flex: 1 1 250 px;
+    padding: 20px;
+    border-radius: 16 px;
+    color: pink;
+    box-shadow: 0 4 px 8 px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.bento-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8 px 16 px rgba(0,0,0,0.3);
+}
+
+.bento1{
+    background-color: turquoise;
+}
+
+.bento2{
+    background-color: antiquewhite;
+}
+
+.bento3{
+    background-color: violet;
+}
